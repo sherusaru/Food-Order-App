@@ -1,10 +1,12 @@
-import { Fragment } from "react"
+import React, { Fragment } from "react";
+import Header from "./components/Layout/Header";
 
-const App = ()=>{
-  return(
+const App = () => {
+  return (
     <Fragment>
-      <h1>Let's Get Started</h1>
+      <Header/>
     </Fragment>
-  )
-}
+  );
+};
+
 export default App;
